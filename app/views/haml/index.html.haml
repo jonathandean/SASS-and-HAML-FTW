@@ -1,0 +1,5 @@
+%h1 HAML examples
+%ul
+  -@slides.each do |slide|
+    %li
+      =link_to "Slide #{slide[:id]}: #{slide[:title]}", "/haml/slide/#{slide[:id]}"

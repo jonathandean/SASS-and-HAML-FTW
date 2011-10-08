@@ -18,6 +18,9 @@ end
 
 gem 'jquery-rails'
 
+# Enable html.haml views
+gem 'haml'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

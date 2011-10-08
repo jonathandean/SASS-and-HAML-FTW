@@ -1,4 +1,9 @@
 SASSAndHAMLFTW::Application.routes.draw do
+
+  match 'haml/', :controller => :haml, :action => :index
+  match 'haml/slide/:id', :controller => :haml, :action => :show
+  #match 'sass(/:action)'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
