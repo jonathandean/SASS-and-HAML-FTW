@@ -1,0 +1,8 @@
+@mixin awesome-text{
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
+p{
+  @include awesome-text;
+}

@@ -1,0 +1,13 @@
+@mixin image-replace($image-url){
+	&, & a{
+		display: block;
+		background: url($image-url) no-repeat;
+	}
+	a{
+		text-indent: -99999px;
+		text-decoration: none;
+	}
+}
+h1{
+	@include image-replace("images/header.gif");
+}

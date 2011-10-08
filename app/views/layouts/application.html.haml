@@ -3,6 +3,7 @@
   %head
     %title SASS and HAML, for the win!
     = stylesheet_link_tag    "application"
+    = yield :stylesheets
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body

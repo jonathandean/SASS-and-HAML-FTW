@@ -1,0 +1,11 @@
+@mixin awesome-text($size){
+  font-size: $size;
+  font-weight: bold;
+  color: blue;
+}
+p{
+  @include awesome-text(24px);
+}
+li{
+	@include awesome-text(18px);
+}

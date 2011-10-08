@@ -2,4 +2,4 @@
 %ul
   -@slides.each do |slide|
     %li
-      =link_to "Slide #{slide[:id]}: #{slide[:title]}", "/haml/slide/#{slide[:id]}"
+      =link_to "Slide #{slide[:id]}: #{slide[:title]}", haml_slide_path(slide[:id])

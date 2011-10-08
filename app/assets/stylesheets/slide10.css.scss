@@ -1,0 +1,13 @@
+$page-width: 500px;
+$sidebar-width: 100px;
+$content-width: $page-width - $sidebar-width;
+
+#main{
+	width: $page-width;
+  #sidebar{
+    width: $sidebar-width;
+  }
+  #content{
+    width: $content-width;
+  }
+}

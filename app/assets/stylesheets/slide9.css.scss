@@ -1,0 +1,12 @@
+$page-color: #333;
+$page-color: #666 !default;
+
+
+$section-color: #999 !default;
+
+body{
+  color: $page-color;
+  div{
+    color: $section-color;
+  }
+}
