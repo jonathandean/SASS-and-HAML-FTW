@@ -1,7 +1,7 @@
 Sample code for my Magma Rails 2011 presentation on learning HAML and SASS
 ==========================================================================
 
-Slides are posted at http://tinyurl.com/magma-haml-sass
+All content from my slides are posted at http://tinyurl.com/magma-haml-sass
 
 Run this application in development mode and view the source to see the ouput of the samples (looking at the rendered pages in the browser won't do much for you.)
 

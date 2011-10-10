@@ -1,19 +1,12 @@
-@for $i from 1 through 3 {
-  .item-#{$i} {
-    width: 10px * $i;
-  }
-}
+$page-color: #333;
+$page-color: #666 !default;
 
-@each $item in item1, item2{
-  .#{$item}{
-    width: 500px;
-  }
-}
 
-$i: 6;
-@while $i > 0 {
-  .item-#{$i} {
-    width: 10px * $i;
+$section-color: #999 !default;
+
+body{
+  color: $page-color;
+  div{
+    color: $section-color;
   }
-  $i: $i - 2;
 }

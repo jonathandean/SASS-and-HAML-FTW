@@ -1,7 +1,5 @@
-.error{
-  color: red;
-}
-.seriousError{
-  @extend .error;
-  font-weight: bold;
+$class-name: wrapper;
+$attribute-name: font;
+div.#{$class-name}{
+  #{$attribute-name}-size: 12px;
 }

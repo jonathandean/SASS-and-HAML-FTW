@@ -1,7 +1,8 @@
-// Importing a full scss or sass file
-@import "reset";
-// Can also add the file extension but isn't necessary:
-// @import "reset.css.scss";
-
-// Using a partial
-@import "sample_partial";
+@mixin awesome-text{
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
+p{
+  @include awesome-text;
+}

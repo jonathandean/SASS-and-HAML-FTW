@@ -1,11 +1,19 @@
-@mixin awesome-text($size){
-  font-size: $size;
-  font-weight: bold;
-  color: blue;
+@for $i from 1 through 3 {
+  .item-#{$i} {
+    width: 10px * $i;
+  }
 }
-p{
-  @include awesome-text(24px);
+
+@each $item in item1, item2{
+  .#{$item}{
+    width: 500px;
+  }
 }
-li{
-	@include awesome-text(18px);
+
+$i: 6;
+@while $i > 0 {
+  .item-#{$i} {
+    width: 10px * $i;
+  }
+  $i: $i - 2;
 }

@@ -1,17 +1,3 @@
-$type: big;
-p{
-  @if $type == big{
-    font-size: 24px;
-  }
-}
-
-$type: small;
-p{
-  @if $type == big {
-    font-size: 24px;
-  } @else if $type == medium{
-    font-size: 18px;
-  } @else {
-    font-size: 16px;
-  }
+body{
+  color: #010203 + #040506;
 }

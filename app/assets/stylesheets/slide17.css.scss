@@ -1,5 +1,6 @@
-$class-name: wrapper;
-$attribute-name: font;
-div.#{$class-name}{
-  #{$attribute-name}-size: 12px;
+.sassy{
+	font:{
+		size: 12px;
+		weight: bold;
+	}
 }

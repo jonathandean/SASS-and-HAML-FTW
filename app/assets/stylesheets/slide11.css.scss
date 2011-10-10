@@ -1,15 +1,13 @@
-$content-width: 500px;
+$page-width: 500px;
+$sidebar-width: 100px;
+$content-width: $page-width - $sidebar-width;
 
-#content{
-  font: 10px/8px;
-  width: $content-width/2;
-  width: (500px/2);
-  width: 10px + 500px/2;
-}
-
-$some-val: 10px;
-$another-val: 8px;
-
-#other{
-  font: #{$some-val}/#{$another-val};
+#main{
+	width: $page-width;
+  #sidebar{
+    width: $sidebar-width;
+  }
+  #content{
+    width: $content-width;
+  }
 }
